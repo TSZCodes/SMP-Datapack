@@ -19,6 +19,8 @@ scoreboard objectives add sanityPositive4 minecraft.used:beef
 scoreboard objectives add sanityPositive5 minecraft.used:chicken
 scoreboard objectives add sanityPositive6 minecraft.used:rabbit
 
+#
+
 #teams
 team add 10life
 team add 9life
@@ -32,16 +34,16 @@ team add 2life
 team add 1life
 team add 0life
 
-team modify 10life color yellow
-team modify 9life color yellow
-team modify 8life color yellow
-team modify 7life color yellow
-team modify 6life color yellow
-team modify 5life color yellow
-team modify 4life color yellow
-team modify 3life color yellow
-team modify 2life color yellow
-team modify 1life color yellow
+team modify 10life color white
+team modify 9life color white
+team modify 8life color white
+team modify 7life color white
+team modify 6life color white
+team modify 5life color white
+team modify 4life color white
+team modify 3life color white
+team modify 2life color white
+team modify 1life color white
 team modify 0life color gray
 
 team modify 1life prefix {"text":"\uE000 "}
