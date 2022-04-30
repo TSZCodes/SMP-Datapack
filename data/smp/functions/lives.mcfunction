@@ -17,6 +17,7 @@ execute at @s if score @s PlayerLives matches 9 run team join 9life
 execute at @s if score @s PlayerLives matches 8 run team join 8life
 execute at @s if score @s PlayerLives matches 7 run team join 7life
 execute at @s if score @s PlayerLives matches 6 run team join 6life
+execute at @s if score @s PlayerLives matches 5 run team join 5life
 execute at @s if score @s PlayerLives matches 4 run team join 4life
 execute at @s if score @s PlayerLives matches 3 run team join 3life
 execute at @s if score @s PlayerLives matches 2 run team join 2life
