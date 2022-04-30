@@ -12,6 +12,11 @@ execute at @s if score @s PlayerLives matches 2 run tellraw @s "You lost a life!
 execute at @s if score @s PlayerLives matches 1 run tellraw @s "You lost a life! You now have 1 Lives"
 execute at @s if score @s PlayerLives matches 0 run gamemode spectator
 
+execute at @s if score @s PlayerLives matches 10 run team join 10life
+execute at @s if score @s PlayerLives matches 9 run team join 9life
+execute at @s if score @s PlayerLives matches 8 run team join 8life
+execute at @s if score @s PlayerLives matches 7 run team join 7life
+execute at @s if score @s PlayerLives matches 6 run team join 6life
 execute at @s if score @s PlayerLives matches 4 run team join 4life
 execute at @s if score @s PlayerLives matches 3 run team join 3life
 execute at @s if score @s PlayerLives matches 2 run team join 2life
