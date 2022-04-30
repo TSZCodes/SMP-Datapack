@@ -1,4 +1,5 @@
 scoreboard players add @a PlayerLives 5
+scoreboard players add #anyLife PlayerLives 0
 scoreboard players add #halfSanity sanityLevel 50
 scoreboard players add #75Sanity sanityLevel 75
 
