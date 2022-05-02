@@ -1,0 +1,1 @@
+execute at @s if score @s sanityLevel > #75Sanity sanityLevel run tellraw @s "3/4 insane"

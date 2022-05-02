@@ -9,8 +9,8 @@ scoreboard players reset @a
 execute as @a at @s run gamemode survival
 #sanity
 scoreboard objectives add sanityLevel dummy "Sanity"
-scoreboard objectives add sanityNegative1 minecraft.used:golden_carrot
-scoreboard objectives add sanityNegative2 minecraft.used:golden_apple
+scoreboard objectives add sanityNegative1 minecraft.used:golden_apple
+scoreboard objectives add sanityNegative2 minecraft.used:golden_carrot
 scoreboard objectives add sanityNegative3 minecraft.custom:minecraft.sleep_in_bed
 scoreboard objectives add sanityPositive1 minecraft.used:rotten_flesh
 scoreboard objectives add sanityPositive2 minecraft.used:mutton

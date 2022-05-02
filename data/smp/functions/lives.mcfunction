@@ -1,5 +1,6 @@
 #if deathcount +1, lives -1
 execute at @s if score @s deathCount matches 1 run scoreboard players remove @s PlayerLives 1
+execute at @s if score @s deathCount matches 1 run scoreboard players set @s sanityLevel 0
 execute at @s run scoreboard players set @s deathCount 0
 execute at @s if score @s PlayerLives matches 9 run tellraw @s "You lost a life! You now have 9 Lives"
 execute at @s if score @s PlayerLives matches 8 run tellraw @s "You lost a life! You now have 8 Lives"
