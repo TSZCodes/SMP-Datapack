@@ -1,6 +1,6 @@
 scoreboard players add @a PlayerLives 5
 scoreboard players add @a sanityLevel 0
-scoreboard players add #1death deathCount 1
+scoreboard players add #0death deathCount 0
 scoreboard players add #anyLife PlayerLives 0
 scoreboard players add #anySanity sanityLevel 0
 scoreboard players add #halfSanity sanityLevel 50
