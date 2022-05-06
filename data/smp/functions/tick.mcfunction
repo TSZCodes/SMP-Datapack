@@ -1,6 +1,6 @@
 #Handles deaths
 execute as @a at @s if score @s deathCount matches 1 run function smp:lives
-execute as @a at @s unless score @s deathCount > #0death deathCount run scoreboard players set @s deathCount 0
+execute as @a at @s unless score @s deathCount matches 0 run scoreboard players set @s deathCount 0
 execute as @a at @s if score @s PlayerLives matches 1 run gamemode survival
 #Handles if player(s) doesn't have any lives set
 execute as @a at @s unless score @s PlayerLives >= #anyLife PlayerLives run tellraw @s "Hmm... Looks like you haven't gotten any lives, let's fix that,"
