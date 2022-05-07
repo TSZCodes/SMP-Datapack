@@ -53,4 +53,15 @@ team modify 7life prefix {"text":"\uE006 "}
 team modify 8life prefix {"text":"\uE007 "}
 team modify 9life prefix {"text":"\uE008 "}
 team modify 10life prefix {"text":"\uE009 "}
+
+team modify 1life seeFriendlyInvisibles false
+team modify 2life seeFriendlyInvisibles false
+team modify 3life seeFriendlyInvisibles false
+team modify 4life seeFriendlyInvisibles false
+team modify 5life seeFriendlyInvisibles false
+team modify 6life seeFriendlyInvisibles false
+team modify 7life seeFriendlyInvisibles false
+team modify 8life seeFriendlyInvisibles false
+team modify 9life seeFriendlyInvisibles false
+team modify 10life seeFriendlyInvisibles false
 function smp:start
