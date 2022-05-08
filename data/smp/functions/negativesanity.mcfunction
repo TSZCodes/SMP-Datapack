@@ -7,3 +7,5 @@ execute at @s if score @s sanityNegative2 matches 1 run scoreboard players set @
 #Sleep
 execute at @s if score @s sanityNegative3 matches 1 run scoreboard players remove @s sanityLevel 25
 execute at @s if score @s sanityNegative3 matches 1 run scoreboard players set @s sanityNegative3 0
+
+function smp:sanityaction
