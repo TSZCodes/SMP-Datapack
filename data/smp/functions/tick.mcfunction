@@ -11,5 +11,4 @@ execute as @a at @s run function smp:negativesanity
 execute as @a at @s run function smp:halfsane
 execute as @a at @s run function smp:positivesanity
 execute as @a at @s run function smp:almostinsane
-execute as @a at @s if score @s sanityLevel > #100sanity sanityLevel run scoreboard players set @s sanityLevel 100
-execute as @a at @s run function smp:sanityaction 
+execute as @a at @s run function smp:sanityaction
