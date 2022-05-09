@@ -12,3 +12,5 @@ execute as @a at @s run function smp:halfsane
 execute as @a at @s run function smp:positivesanity
 execute as @a at @s run function smp:almostinsane
 execute as @a at @s run function smp:sanityaction
+execute as @a at @e[scores={sanityLevel=201..}] run scoreboard players set @s sanityLevel 200
+execute as @a at @e[scores={sanityLevel=..-1}] run scoreboard players set @s sanityLevel 0

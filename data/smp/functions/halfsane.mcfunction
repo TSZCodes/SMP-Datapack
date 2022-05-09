@@ -1,1 +1,0 @@
-execute at @s if score @s sanityLevel > #halfSanity sanityLevel run tellraw @s "Half sane"
