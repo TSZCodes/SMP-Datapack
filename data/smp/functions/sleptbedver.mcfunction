@@ -2,4 +2,6 @@ execute as @a at @s[scores={sanityNegative3=1}] run schedule function smp:sleptb
 
 execute as @a at @s[scores={sanityNegative3=1}] run schedule function smp:sleptbedver 31s
 
+execute as @a at @s[scores={sanityNegative3=2..}] run scoreboard players set @s sanityNegative3 0
+
 execute as @a at @s run schedule function smp:sleptbedver 6s
