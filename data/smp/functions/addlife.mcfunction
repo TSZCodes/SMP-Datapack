@@ -11,3 +11,4 @@ execute as @s if score @s PlayerLives matches 4 run team join 4life
 execute as @s if score @s PlayerLives matches 3 run team join 3life
 execute as @s if score @s PlayerLives matches 2 run team join 2life
 execute as @s if score @s PlayerLives matches 1 run team join 1life
+execute as @s if score @s PlayerLives matches 1 run gamemode survival @s
