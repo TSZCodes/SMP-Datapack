@@ -1,0 +1,1 @@
+execute as @a at @s[scores={sanityNegative3=1}] run tellraw @s "Message"

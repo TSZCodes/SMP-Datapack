@@ -7,3 +7,4 @@ scoreboard players add #anySanity sanityLevel 0
 execute as @a at @s if score @s PlayerLives matches 5 run team join 5life
 
 execute as @a at @s run schedule function smp:darklight 4s
+execute as @a at @s run schedule function smp:sleptbedver 6s
