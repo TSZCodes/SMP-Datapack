@@ -13,26 +13,12 @@ scoreboard objectives add sanityNegative1 minecraft.used:golden_apple
 scoreboard objectives add sanityNegative2 minecraft.used:golden_carrot
 scoreboard objectives add sanityNegative3 minecraft.custom:minecraft.sleep_in_bed
 scoreboard objectives add sanityNegative4 minecraft.custom:eat_cake_slice
-scoreboard objectives add sanityNegative5 minecraft.picked_up:dandelion
-scoreboard objectives add sanityNegative6 minecraft.picked_up:poppy
-scoreboard objectives add sanityNegative7 minecraft.picked_up:blue_orchid
-scoreboard objectives add sanityNegative8 minecraft.picked_up:allium
-scoreboard objectives add sanityNegative9 minecraft.picked_up:azure_bluet
-scoreboard objectives add sanityNegative10 minecraft.picked_up:red_tulip
-scoreboard objectives add sanityNegative11 minecraft.picked_up:pink_tulip
-scoreboard objectives add sanityNegative12 minecraft.picked_up:white_tulip
-scoreboard objectives add sanityNegative13 minecraft.picked_up:orange_tulip
-scoreboard objectives add sanityNegative14 minecraft.picked_up:oxeye_daisy
-scoreboard objectives add sanityNegative15 minecraft.picked_up:cornflower
-scoreboard objectives add sanityNegative16 minecraft.picked_up:lily_of_the_valley
-scoreboard objectives add sanityNegative17 minecraft.picked_up:spore_blossom
 scoreboard objectives add sanityPositive1 minecraft.used:rotten_flesh
 scoreboard objectives add sanityPositive2 minecraft.used:mutton
 scoreboard objectives add sanityPositive3 minecraft.used:cod
 scoreboard objectives add sanityPositive4 minecraft.used:beef
 scoreboard objectives add sanityPositive5 minecraft.used:chicken
 scoreboard objectives add sanityPositive6 minecraft.used:rabbit
-scoreboard objectives add sanityPositive7 minecraft.picked_up:wither_rose
 #teams
 team add 10life
 team add 9life

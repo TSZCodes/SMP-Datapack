@@ -14,3 +14,17 @@ execute as @a at @s run function smp:sanityaction
 execute as @a at @e[scores={sanityLevel=201..}] run scoreboard players set @s sanityLevel 200
 execute as @a at @e[scores={sanityLevel=..-1}] run scoreboard players set @s sanityLevel 0
 execute as @a at @s[gamemode=spectator] run scoreboard players set @s sanityLevel 0
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:poppy",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:dandelion",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:blue_orchid",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:allium",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:azure_bluet",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:red_tulip",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:pink_tulip",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:white_tulip",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:orange_tulip",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:oxeye_daisy",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:cornflower",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lily_of_the_valley",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:wither_rose",Count:1b}]}] run function smp:flowers
+execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:spore_blossom",Count:1b}]}] run function smp:flowers
