@@ -28,3 +28,4 @@ execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:cornflower",Count:
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lily_of_the_valley",Count:1b}]}] run function smp:flowers
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:wither_rose",Count:1b}]}] run function smp:flowers
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:spore_blossom",Count:1b}]}] run function smp:flowers
+execute as @a at @s if predicate smp:onebytwoneg run execute at @s if predicate smp:onebytwopos run function smp:claustrophobia

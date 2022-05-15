@@ -43,4 +43,4 @@ execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:spore_blossom",Count:1b}
 execute as @a at @s run function smp:sanityaction
 
 execute at @s run function smp:sleptbedver
-execute at @s run function smp:darklight
+execute at @s run schedule function smp:darklight 8s

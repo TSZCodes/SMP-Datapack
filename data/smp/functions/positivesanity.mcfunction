@@ -16,6 +16,4 @@ execute at @s if score @s sanityPositive5 matches 1 run scoreboard players set @
 execute at @s if score @s sanityPositive6 matches 1 run scoreboard players add @s sanityLevel 5
 execute at @s if score @s sanityPositive6 matches 1 run scoreboard players set @s sanityPositive6 0
 
-function smp:sleptbedver
-function smp:darklight
 execute at @s run function smp:sanityaction

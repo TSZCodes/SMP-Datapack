@@ -8,6 +8,4 @@ execute at @s if score @s sanityNegative2 matches 1 run scoreboard players set @
 execute at @s if score @s sanityNegative4 matches 1 run scoreboard players remove @s sanityLevel 5
 execute at @s if score @s sanityNegative4 matches 1 run scoreboard players set @s sanityNegative4 0
 
-function smp:sleptbedver
-function smp:darklight
 execute at @s run function smp:sanityaction
