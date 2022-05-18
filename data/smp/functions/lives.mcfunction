@@ -24,5 +24,3 @@ execute at @s if score @s PlayerLives matches 3 run team join 3life
 execute at @s if score @s PlayerLives matches 2 run team join 2life
 execute at @s if score @s PlayerLives matches 1 run team join 1life
 execute at @s if score @s PlayerLives matches 0 run team join 0life
-
-function smp:darklight

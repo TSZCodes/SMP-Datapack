@@ -29,3 +29,9 @@ execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lily_of_the_valley
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:wither_rose",Count:1b}]}] run function smp:flowers
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:spore_blossom",Count:1b}]}] run function smp:flowers
 execute as @a at @s if predicate smp:onebytwoneg run execute at @s if predicate smp:onebytwopos run function smp:claustrophobia
+#Startup (weird server shit happens when it restarts)
+execute as @a at @s run scoreboard players add @s joined 1
+execute as @a at @s[scores={joined=1}] run function smp:startup
+execute as @a at @s[scores={joined=2..}] run scoreboard players set @s joined 2
+execute as @a at @s[scores={quit=1}] run scoreboard players set @s joined 0
+execute as @a at @s[scores={quit=1}] run scoreboard players set @s quit 0

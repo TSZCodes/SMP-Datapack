@@ -1,6 +1,9 @@
 tellraw @a {"text": "Welcome to TSZ's DataPack made for a private SMP!", "color": "#11FF00"}
 
 #Do these when /reload is occured
+#Startup
+scoreboard objectives add joined dummy
+scoreboard objectives add quit minecraft.custom:leave_game
 #Lives
 scoreboard objectives add PlayerLives dummy "Lives"
 scoreboard objectives add deathCount deathCount
