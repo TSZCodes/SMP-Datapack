@@ -1,0 +1,12 @@
+execute as @e[type=player] at @s run execute as @e[type=zombie,distance=0..5] run scoreboard players add @p mobsNear 1
+execute as @e[type=player] at @s run execute as @e[type=husk,distance=0..5] run scoreboard players add @p mobsNear 1
+execute as @e[type=player] at @s run execute as @e[type=drowned,distance=0..5] run scoreboard players add @p mobsNear 1
+execute as @e[type=player] at @s run execute as @e[type=skeleton,distance=0..5] run scoreboard players add @p mobsNear 1
+execute as @e[type=player] at @s run execute as @e[type=stray,distance=0..5] run scoreboard players add @p mobsNear 1
+execute as @e[type=player] at @s run execute as @e[type=guardian,distance=0..5] run scoreboard players add @p mobsNear 1
+execute as @e[type=player] at @s run execute as @e[type=elder_guardian,distance=0..5] run scoreboard players add @p mobsNear 1
+execute as @e[type=player] at @s run execute as @e[type=enderman,distance=0..5] run scoreboard players add @p mobsNear 1
+execute as @e[type=player] at @s run execute as @e[type=spider,distance=0..5] run scoreboard players add @p mobsNear 1
+execute as @e[type=player] at @s run execute as @e[type=cave_spider,distance=0..5] run scoreboard players add @p mobsNear 1
+execute as @e[type=player] at @s run execute as @e[type=creeper,distance=0..5] run scoreboard players add @p mobsNear 1
+execute as @e[type=player] at @s run execute as @e[type=witch,distance=0..5] run scoreboard players add @p mobsNear 1

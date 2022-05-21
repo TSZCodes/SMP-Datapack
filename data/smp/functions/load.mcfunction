@@ -22,6 +22,12 @@ scoreboard objectives add sanityPositive3 minecraft.used:cod
 scoreboard objectives add sanityPositive4 minecraft.used:beef
 scoreboard objectives add sanityPositive5 minecraft.used:chicken
 scoreboard objectives add sanityPositive6 minecraft.used:rabbit
+scoreboard objectives add mobsNear dummy
+scoreboard objectives add first100 dummy
+scoreboard objectives add first150 dummy
+scoreboard objectives add first175 dummy
+scoreboard objectives add first200 dummy
+
 #teams
 team add 10life
 team add 9life
