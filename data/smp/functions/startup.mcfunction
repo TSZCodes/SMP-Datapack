@@ -6,3 +6,5 @@ execute as @a at @s run schedule function smp:halfsane 6s
 execute as @a at @s run schedule function smp:nearmobs 3s
 execute as @a at @s run schedule function smp:almostinsane 6s
 execute as @a at @s run schedule function smp:nearinsane 6s
+execute as @a at @s run schedule function smp:maxinsane 6s
+execute as @a at @s run schedule function smp:spawnphantoms 6s

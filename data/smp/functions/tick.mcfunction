@@ -8,7 +8,6 @@ execute as @a at @s unless score @s PlayerLives >= #anyLife PlayerLives run func
 execute as @a at @s unless score @s sanityLevel >= #anySanity sanityLevel run scoreboard players add @s sanityLevel 0
 execute as @a at @s run function smp:negativesanity
 execute as @a at @s run function smp:positivesanity
-execute as @a at @s run function smp:almostinsane
 execute as @a at @s run function smp:sanityaction
 execute as @a at @s run function smp:savemobs
 execute as @a at @e[scores={sanityLevel=201..}] run scoreboard players set @s sanityLevel 200
@@ -28,7 +27,7 @@ execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:cornflower",Count:
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lily_of_the_valley",Count:1b}]}] run function smp:flowers
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:wither_rose",Count:1b}]}] run function smp:flowers
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:spore_blossom",Count:1b}]}] run function smp:flowers
-execute as @a at @s[predicate=smp:onebytwoneg,predicate=smp:onebytwopos] run function smp:claustrophobia
+execute as @a at @s[scores={stay200=1}] run scoreboard players set @s sanityLevel 200
 #Startup (weird server shit happens when it restarts)
 execute as @a at @s run scoreboard players add @s joined 1
 execute as @a at @s[scores={joined=1}] run function smp:startup
