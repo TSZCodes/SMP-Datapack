@@ -27,7 +27,8 @@ scoreboard objectives add first100 dummy
 scoreboard objectives add first150 dummy
 scoreboard objectives add first175 dummy
 scoreboard objectives add first200 dummy
-
+#invisarmor
+scoreboard objectives add sneak minecraft.custom:sneak_time
 #teams
 team add 10life
 team add 9life
