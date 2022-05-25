@@ -6,4 +6,4 @@ execute as @a at @s[scores={sanityNegative3=2..}] unless score @s joined matches
 
 execute as @a at @s[scores={sanityNegative3=2..}] run schedule function smp:sleptbedver 6s
 
-execute as @a at @s run schedule function smp:sleptbedver 6s
+execute as @a at @s[scores={sanityNegative3=0}] run schedule function smp:sleptbedver 6s
