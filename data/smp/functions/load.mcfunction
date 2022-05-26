@@ -31,6 +31,7 @@ scoreboard objectives add stay200 dummy
 scoreboard objectives add playerKill minecraft.killed:player
 #invisarmor
 scoreboard objectives add sneak minecraft.custom:sneak_time
+scoreboard objectives add stand minecraft.custom:walk_one_cm
 #teams
 team add 10life
 team add 9life
