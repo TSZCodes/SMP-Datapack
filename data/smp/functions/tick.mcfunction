@@ -1,4 +1,5 @@
 #Handles deaths
+execute as @a at @s if score @s deathCount matches 1 run scoreboard players set @s stay200 0
 execute as @a at @s if score @s deathCount matches 1 run function smp:lives
 execute as @a at @s run scoreboard players set @s deathCount 0
 #Handles if player(s) doesn't have any lives set
