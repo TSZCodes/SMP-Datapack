@@ -1,6 +1,11 @@
 #if deathcount +1, lives -1
 execute at @s if score @s deathCount matches 1 run scoreboard players remove @s PlayerLives 1
 execute at @s if score @s deathCount matches 1 run scoreboard players set @s stay200 0
+execute at @s if score @s deathCount matches 1 run function smp:drain/resetdrain
+execute at @s if score @s deathCount matches 1 run scoreboard players set @s first100 1
+execute at @s if score @s deathCount matches 1 run scoreboard players set @s first150 1
+execute at @s if score @s deathCount matches 1 run scoreboard players set @s first175 1
+execute at @s if score @s deathCount matches 1 run scoreboard players set @s first200 1
 execute at @s if score @s deathCount matches 1 run scoreboard players set @s sanityLevel 0
 execute at @s run scoreboard players set @s deathCount 0
 execute at @s if score @s PlayerLives matches 9 run tellraw @s "You lost a life! You now have 9 Lives"

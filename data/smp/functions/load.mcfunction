@@ -10,6 +10,7 @@ scoreboard objectives add deathCount deathCount
 #reset
 scoreboard players reset @a
 execute as @a at @s run gamemode survival
+execute as @a at @s run attribute @s generic.max_health base set 20
 #sanity
 scoreboard objectives add sanityLevel dummy "Sanity"
 scoreboard objectives add sanityNegative1 minecraft.used:golden_apple
@@ -31,6 +32,27 @@ scoreboard objectives add stay200 dummy
 scoreboard objectives add playerKill minecraft.killed:player
 #invisarmor
 scoreboard objectives add sneak minecraft.custom:sneak_time
+#drain hearts
+scoreboard objectives add firstdrain dummy
+scoreboard objectives add drain1 dummy
+scoreboard objectives add drain2 dummy
+scoreboard objectives add drain3 dummy
+scoreboard objectives add drain4 dummy
+scoreboard objectives add drain5 dummy
+scoreboard objectives add drain6 dummy
+scoreboard objectives add drain7 dummy
+scoreboard objectives add drain8 dummy
+scoreboard objectives add drain9 dummy
+scoreboard objectives add drain10 dummy
+scoreboard objectives add drain11 dummy
+scoreboard objectives add drain12 dummy
+scoreboard objectives add drain13 dummy
+scoreboard objectives add drain14 dummy
+scoreboard objectives add drain15 dummy
+scoreboard objectives add drain16 dummy
+scoreboard objectives add drain17 dummy
+scoreboard objectives add drain18 dummy
+scoreboard objectives add drain19 dummy
 #teams
 team add 10life
 team add 9life

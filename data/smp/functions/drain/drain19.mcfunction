@@ -1,0 +1,2 @@
+execute as @a at @s[scores={sanityLevel=200}] if score @s drain18 matches 1 run scoreboard players set @s drain19 1
+execute as @a at @s[scores={sanityLevel=200}] if score @s drain18 matches 1 run scoreboard players set @s drain18 0
