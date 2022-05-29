@@ -1,3 +1,4 @@
+execute as @s if score @s PlayerLives matches 0 run scoreboard players set @s stay200 0
 execute as @s if score @s PlayerLives matches 10 run tellraw @s "The maximum of lives one can have is 10"
 execute unless score @s PlayerLives matches 10 run scoreboard players add @s PlayerLives 1
 execute unless score @s PlayerLives matches 10 run tellraw @s "You have been given a life!"
