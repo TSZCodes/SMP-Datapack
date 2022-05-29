@@ -10,6 +10,8 @@ scoreboard players set @a first175 1
 scoreboard players set @a first200 1
 scoreboard players add @a sanityNegative3 0
 worldborder set 20000
+worldborder center 0 0
+worldborder warning distance 0
 
 execute as @a at @s if score @s PlayerLives matches 5 run team join 5life
 

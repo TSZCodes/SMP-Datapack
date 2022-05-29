@@ -38,4 +38,5 @@ execute as @a at @s[scores={quit=1}] run scoreboard players set @s quit 0
 #invis armor shit
 execute as @a at @s run function smp:sneakinvis
 #worldborder warning
-execute if entity @s[scores={sanityLevel=200}] run worldborder warning distance 200000
+execute as @a at @s[scores={sanityLevel=200}] run worldborder warning distance 200000
+execute as @a at @s[scores={sanityLevel=..199}] run worldborder warning distance 0
