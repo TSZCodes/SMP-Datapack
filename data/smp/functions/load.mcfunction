@@ -29,7 +29,7 @@ scoreboard objectives add first150 dummy
 scoreboard objectives add first175 dummy
 scoreboard objectives add first200 dummy
 scoreboard objectives add stay200 dummy
-scoreboard objectives add playerKill minecraft.killed:player
+scoreboard objectives add playerKill playerKillCount
 #invisarmor
 scoreboard objectives add sneak minecraft.custom:sneak_time
 #drain hearts

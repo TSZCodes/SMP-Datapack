@@ -14,5 +14,6 @@ execute at @s[scores={sanityLevel=200,stay200=1}] if score @s playerKill matches
 execute at @s[scores={sanityLevel=200,stay200=1}] if score @s playerKill matches 1 run scoreboard players set @s first200 1
 execute at @s[scores={sanityLevel=200,stay200=1}] if score @s playerKill matches 1 run scoreboard players set @s stay200 0
 execute at @s[scores={sanityLevel=200,stay200=0}] if score @s playerKill matches 1 run scoreboard players remove @s sanityLevel 100
+execute at @s[scores={sanityLevel=200,stay200=0}] if score @s playerKill matches 1 run scoreboard players set @s playerKill 0
 
 execute at @s run function smp:sanityaction
