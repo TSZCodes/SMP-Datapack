@@ -18,7 +18,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Goat Horn\",\"italic\":false,\"color\":\"white\"}'},CustomModelData:1001}"
+                            "tag": "{display:{Name:'{\"text\":\"Goat Horn\",\"italic\":false,\"color\":\"white\"}'},CustomModelData:9}"
                         },
                         {
                             "function": "set_count",
@@ -45,7 +45,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Goat Horn\",\"italic\":false,\"color\":\"white\"}'},CustomModelData:1001}"
+                            "tag": "{display:{Name:'{\"text\":\"Goat Horn\",\"italic\":false,\"color\":\"white\"}'},CustomModelData:9}"
                         }
                     ]
                 }
