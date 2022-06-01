@@ -1,3 +1,5 @@
+execute as @a at @s if score @s kill matches 1 run function smp:kill
+execute as @a at @s run scoreboard players set @s kill 0
 #Handles deaths
 execute as @a at @s if score @s deathCount matches 1 run scoreboard players set @s stay200 0
 execute as @a at @s if score @s deathCount matches 1 run function smp:lives
@@ -37,6 +39,3 @@ execute as @a at @s[scores={quit=1}] run scoreboard players set @s joined 0
 execute as @a at @s[scores={quit=1}] run scoreboard players set @s quit 0
 #invis armor shit
 execute as @a at @s run function smp:sneakinvis
-#worldborder warning
-execute as @a[scores={sanityLevel=200}] run worldborder warning distance 200000
-execute as @a[scores={sanityLevel=..199}] run worldborder warning distance 0
