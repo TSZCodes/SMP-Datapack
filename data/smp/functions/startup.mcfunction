@@ -1,10 +1,10 @@
-execute as @a at @s run schedule function smp:darklight 8s
-execute as @a at @s run schedule function smp:sleptbedver 6s
-execute as @a at @s run schedule function smp:dimensions 30s
-execute as @a at @s run schedule function smp:outside 5s
-execute as @a at @s run schedule function smp:halfsane 6s
-execute as @a at @s run schedule function smp:nearmobs 3s
-execute as @a at @s run schedule function smp:almostinsane 6s
-execute as @a at @s run schedule function smp:nearinsane 6s
-execute as @a at @s run schedule function smp:maxinsane 6s
-execute as @a at @s run schedule function smp:spawnphantoms 6s
+execute as @a at @s run function smp:darklight
+execute as @a at @s run function smp:sleptbedver
+execute as @a at @s run function smp:dimensions
+execute as @a at @s run function smp:outside
+execute as @a at @s run function smp:halfsane
+execute as @a at @s run function smp:nearmobs
+execute as @a at @s run function smp:almostinsane
+execute as @a at @s run function smp:nearinsane
+execute as @a at @s run function smp:maxinsane
+execute as @a at @s run function smp:spawnphantoms
