@@ -1,0 +1,1 @@
+execute as @a at @s[scores={sanityLevel=200}] if score @s drain9 matches 1 run scoreboard players set @s drain9 0
