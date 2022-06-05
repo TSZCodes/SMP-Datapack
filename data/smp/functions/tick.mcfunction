@@ -35,8 +35,8 @@ execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:cornflower",Count:
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lily_of_the_valley",Count:1b}]}] run function smp:flowers
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:wither_rose",Count:1b}]}] run function smp:flowers
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:spore_blossom",Count:1b}]}] run function smp:flowers
-execute as @a at @s[scores={sanityLevel=200}] run scoreboard players set @s stay200 1
-execute as @a at @s[scores={sanityLevel=200}] run scoreboard players set @s firstdrain 1
+execute as @a at @s run scoreboard players set @s[scores={sanityLevel=200}] stay200 1
+execute as @a at @s run scoreboard players set @s[scores={sanityLevel=200}] firstdrain 1
 execute as @a at @s[scores={stay200=1}] run scoreboard players set @s sanityLevel 200
 #Startup (weird server shit happens when it restarts)
 execute as @a at @s run scoreboard players add @s joined 1
