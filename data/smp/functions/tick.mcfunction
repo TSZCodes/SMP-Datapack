@@ -10,6 +10,8 @@ execute as @a at @s unless score @s PlayerLives >= #anyLife PlayerLives run func
 #Timers
 execute as @a at @s run scoreboard players remove @s[scores={sanityLevel=200,timer_drain=1..}] timer_drain 1
 execute as @a[scores={sanityLevel=200,timer_drain=1}] at @s run function smp:drainhearts
+execute as @a at @s run scoreboard players remove @s[scores={sanityLevel=150..199,timer_phantom=1..}] timer_phantom 1
+execute as @a[scores={sanityLevel=150..199,timer_phantom=1}] at @s run function smp:spawnphantoms
 #Handles if a player has a draincount below 200 points
 execute as @a[scores={sanityLevel=..199}] at @s run function smp:drain/resetdrain
 #Handles sanity level
