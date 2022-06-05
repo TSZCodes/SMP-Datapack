@@ -11,6 +11,8 @@ scoreboard objectives add deathCount deathCount
 scoreboard players reset @a
 execute as @a at @s run gamemode survival
 execute as @a at @s run attribute @s generic.max_health base set 20
+#timer
+scoreboard objectives add timer_drain dummy
 #sanity
 scoreboard objectives add sanityLevel dummy "Sanity"
 scoreboard objectives add sanityNegative1 minecraft.used:golden_apple
