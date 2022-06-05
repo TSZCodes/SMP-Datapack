@@ -18,4 +18,4 @@ execute as @a[scores={sanityLevel=200}] at @s if score @s drain8 matches 1 run a
 execute as @a[scores={sanityLevel=200}] at @s if score @s drain8 matches 1 run schedule function smp:drain/drain9 2s
 execute as @a[scores={sanityLevel=200}] at @s if score @s drain9 matches 1 run attribute @s generic.max_health base set 0
 execute as @a[scores={sanityLevel=200}] at @s if score @s drain9 matches 1 run schedule function smp:drain/drain10 2s
-execute as @a at @s run schedule function smp:drainhearts 300s
+execute as @a at @s run schedule function smp:drainhearts 300s replace
