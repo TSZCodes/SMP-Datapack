@@ -1,2 +1,0 @@
-execute at @s[nbt={Inventory:[{Slot:101b,id:"minecraft:diamond_leggings",tag:{invis:1b}},{Slot:100b,id:"minecraft:diamond_boots",tag:{invis:1b}}]},scores={sneak=1..}] run effect give @s slow_falling 1 1 true
-execute at @s[nbt={Inventory:[{Slot:101b,id:"minecraft:diamond_leggings",tag:{invis:1b}},{Slot:100b,id:"minecraft:diamond_boots",tag:{invis:1b}}]},scores={sneak=1..}] run scoreboard players set @s sneak 0

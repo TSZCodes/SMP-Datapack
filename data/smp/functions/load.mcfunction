@@ -7,6 +7,7 @@ scoreboard objectives add quit minecraft.custom:leave_game
 #Lives
 scoreboard objectives add PlayerLives dummy "Lives"
 scoreboard objectives add deathCount deathCount
+scoreboard objectives add first10lives dummy
 #reset
 scoreboard players reset @a
 execute as @a at @s run gamemode survival
