@@ -15,6 +15,7 @@ execute as @a at @s run attribute @s generic.max_health base set 20
 #timer
 scoreboard objectives add timer_drain dummy
 scoreboard objectives add timer_phantom dummy
+scoreboard objectives add timer_sleep dummy
 #sanity
 scoreboard objectives add sanityLevel dummy "Sanity"
 scoreboard objectives add sanityNegative1 minecraft.used:golden_apple
