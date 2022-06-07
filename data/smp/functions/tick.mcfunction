@@ -39,6 +39,7 @@ execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:cornflower",Count:
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lily_of_the_valley",Count:1b}]}] run function smp:flowers
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:wither_rose",Count:1b}]}] run function smp:flowers
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:spore_blossom",Count:1b}]}] run function smp:flowers
+execute as @a at @s run scoreboard players set @s check200 1
 execute as @a at @s if score @s check200 matches 1 run function smp:checksanity
 execute as @a at @s[scores={stay200=1}] run scoreboard players set @s sanityLevel 200
 #Startup (weird server shit happens when it restarts)
