@@ -22,8 +22,8 @@ execute as @a at @s run function smp:negativesanity
 execute as @a at @s run function smp:positivesanity
 execute as @a at @s run function smp:sanityaction
 execute as @a at @s run function smp:savemobs
-execute as @a at @e[scores={sanityLevel=201..}] run scoreboard players set @s sanityLevel 200
-execute as @a at @e[scores={sanityLevel=..-1}] run scoreboard players set @s sanityLevel 0
+execute as @a at @e[scores={sanityLevel=201..}] run scoreboard players set @s[scores={sanityLevel=201..}] sanityLevel 200
+execute as @a at @e[scores={sanityLevel=..-1}] run scoreboard players set @s[scores={sanityLevel=..-1}] sanityLevel 0
 execute as @a at @s[gamemode=spectator] run scoreboard players set @s sanityLevel 0
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:poppy",Count:1b}]}] run function smp:flowers
 execute as @a at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:dandelion",Count:1b}]}] run function smp:flowers
