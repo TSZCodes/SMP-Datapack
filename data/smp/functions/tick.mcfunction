@@ -43,6 +43,7 @@ execute as @a at @s run scoreboard players set @s[scores={sanityLevel=..199}] no
 execute as @a at @s run scoreboard players set @s[scores={sanityLevel=200}] not200 0
 execute as @a at @s run scoreboard players set @s check200 1
 execute as @a at @s if score @s check200 matches 1 run function smp:checksanity
+execute as @a at @s if score @s sanityLevel matches ..199 run scoreboard players set @s stay200 0
 #Startup (weird server shit happens when it restarts)
 execute as @a at @s run scoreboard players add @s joined 1
 execute as @a at @s[scores={joined=1}] run function smp:startup
