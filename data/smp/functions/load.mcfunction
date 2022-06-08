@@ -36,6 +36,7 @@ scoreboard objectives add first200 dummy
 scoreboard objectives add stay200 dummy
 scoreboard objectives add kill playerKillCount
 scoreboard objectives add check200 dummy
+scoreboard objectives add not200 dummy
 #invisarmor
 scoreboard objectives add sneak minecraft.custom:sneak_time
 #drain hearts
