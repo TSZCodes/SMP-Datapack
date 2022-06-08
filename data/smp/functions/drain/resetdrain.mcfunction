@@ -18,4 +18,3 @@ scoreboard players set @s drain16 0
 scoreboard players set @s drain17 0
 scoreboard players set @s drain18 0
 scoreboard players set @s drain19 0
-attribute @s generic.max_health base set 20

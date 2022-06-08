@@ -2,6 +2,7 @@
 execute at @s if score @s deathCount matches 1 run scoreboard players remove @s PlayerLives 1
 execute at @s if score @s deathCount matches 1 run scoreboard players set @s stay200 0
 execute at @s if score @s deathCount matches 1 run function smp:drain/resetdrain
+execute at @s if score @s deathCount matches 1 run attribute @s generic.max_health base set 20
 execute at @s if score @s deathCount matches 1 run scoreboard players set @s first100 1
 execute at @s if score @s deathCount matches 1 run scoreboard players set @s first150 1
 execute at @s if score @s deathCount matches 1 run scoreboard players set @s first175 1
