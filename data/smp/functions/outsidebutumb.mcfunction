@@ -1,0 +1,3 @@
+execute as @a at @s if predicate smp:rainorthunder unless score @s joined matches 1 run execute at @s if predicate smp:check_sky if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Name:'{"text": "Umbrella","italic": false}'},CustomModelData:9}}}] run scoreboard players remove @s sanityLevel 5
+execute as @a at @s if predicate smp:rainorthunder unless score @s joined matches 1 run execute at @s if predicate smp:check_sky if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{display:{Name:'{"text": "Umbrella","italic": false}'},CustomModelData:9}}]}] run scoreboard players remove @s sanityLevel 5
+execute as @a at @s run schedule function smp:outsidebutumb 5s

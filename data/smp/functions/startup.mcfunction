@@ -2,6 +2,8 @@ execute as @a at @s run function smp:darklight
 execute as @a at @s run function smp:sleptbedver
 execute as @a at @s run function smp:dimensions
 execute as @a at @s run function smp:outside
+execute as @a at @s run function smp:outsidebutumb
+execute as @a at @s run function smp:outsideumbdura
 execute as @a at @s run function smp:halfsane
 execute as @a at @s run function smp:nearmobs
 execute as @a at @s run function smp:almostinsane
