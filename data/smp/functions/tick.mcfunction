@@ -52,4 +52,5 @@ execute as @a at @s[scores={quit=1}] run scoreboard players set @s joined 0
 execute as @a at @s[scores={quit=1}] run scoreboard players set @s quit 0
 #First 10 lives text
 execute as @a at @s if score @s PlayerLives matches 9 run scoreboard players set @s first10lives 1
+execute as @a at @s if score @s PlayerLives matches 10 run scoreboard players set @s first10lives 0
 execute as @a at @s if score @s PlayerLives matches 10.. run scoreboard players set @s PlayerLives 10
